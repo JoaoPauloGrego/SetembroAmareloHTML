@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; /* Tira os pontos, barras, qualquer coisa que fique antes do texto no Li */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3b0; /* Cor do fundo */
+    color: #333; /* Cor de texto  */
+    line-height: 1.6;
+}
+
+#caixa {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul.pt {
+    display: flex; /* Organiza o conteúdo horizontalmente */
+    justify-content: space-between; 
+    padding: 10px;
+    margin: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+ul.pt li {
+    flex-grow: 1;/* Faz com que o conteúdo preencha o espaço completo */
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul.pt li:hover {
+    background-color: #ffeb3b;
+    color: black;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+}
+
+section#txt1,
+section#txt2,
+section#txt3,
+section#txt4 {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Faz com que os setores tenham um pouco de sombra por fora */
+}
+
+section#txt4 ul {
+    margin-top: 10px;
+}
+
+section#txt4 ul li {
+    margin-bottom: 5px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    padding: 12px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
